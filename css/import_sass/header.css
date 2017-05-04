@@ -1,0 +1,35 @@
+.header {
+  background-image: url(../img/back-desktop.jpg);
+  height: 646px; }
+  .header .main-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 70px; }
+    .header .main-nav__items {
+      display: flex;
+      -webkit-justify-content: space-between;
+      /* Safari */
+      justify-content: space-between;
+      list-style-type: none;
+      margin: 0; }
+    .header .main-nav__item {
+      position: relative;
+      color: #ffffff;
+      margin-right: 50px;
+      top: 20px;
+      font-size: 18pt;
+      height: 45px; }
+      .header .main-nav__item:hover {
+        border-bottom: solid 3px #826550; }
+    .header .main-nav .login {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      color: #ffffff;
+      width: 80px; }
+  .header .header__logo {
+    position: relative;
+    top: 5%;
+    width: 370px;
+    margin: 50px auto 0; }

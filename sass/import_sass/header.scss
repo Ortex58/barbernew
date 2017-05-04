@@ -1,0 +1,47 @@
+$navColor: #ffffff;
+.header {
+	background-image: url(../img/back-desktop.jpg);
+	height: 646px;
+	.main-nav {
+		display: flex;
+		justify-content: space-around;
+		background-color: black;
+		height: 70px;
+		
+		
+		&__items {
+			display: flex;
+			-webkit-justify-content: space-between; /* Safari */
+ 			justify-content: space-between;
+			list-style-type: none;
+			margin: 0;
+		}
+		&__item {
+			position: relative;
+			color: $navColor;
+			margin-right: 50px;
+			top: 20px;
+			font-size: 18pt;
+			height: 45px;
+			&:hover {
+				border-bottom: solid 3px #826550;
+			}
+			
+		}
+		.login {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			color: $navColor;
+			width: 80px;
+			
+		}
+	}
+  .header__logo {
+  	position: relative;
+  	top: 5%;
+  	width: 370px;
+  	margin: 50px auto 0;
+  }
+	
+}
