@@ -25,6 +25,7 @@
             font-weight: normal;
         }
         div {
+            cursor: pointer;
             position: relative;
             display: inline-block;
             border: 1px solid #3f3f3f;
@@ -49,6 +50,7 @@
             font-weight: normal;
         }
         &--button {
+            cursor: pointer;
             height: 50px;
 			width: 160px;
 			border: 1px solid #4A4A4A;

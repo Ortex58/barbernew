@@ -17,6 +17,7 @@ $navColor: #ffffff;
 			margin: 0;
 		}
 		&__item {
+			cursor: pointer;
 			position: relative;
 			color: $navColor;
 			margin-right: 50px;
@@ -29,6 +30,7 @@ $navColor: #ffffff;
 			
 		}
 		.login {
+			cursor: pointer;
 			display: flex;
 			align-items: center;
 			justify-content: space-around;
