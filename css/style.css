@@ -203,3 +203,91 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 15pt; }
+
+.form__bg {
+  height: 100vh;
+  z-index: 10; }
+  .form__bg .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #efefef;
+    margin: 0 auto;
+    width: 460px;
+    height: 500px;
+    top: 50%;
+    margin-top: -250px;
+    position: fixed;
+    right: 50%;
+    margin-right: -230px; }
+    .form__bg .form__login {
+      height: 350px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+      .form__bg .form__login--room {
+        position: relative;
+        text-align: center;
+        font-size: 30pt;
+        font-family: 'Myriad Pro Regular', sans-serif;
+        margin: 0; }
+      .form__bg .form__login--paragraph {
+        text-align: center;
+        font-size: 12pt;
+        font-family: 'Myriad Pro Regular', sans-serif;
+        color: #424141;
+        margin: 0; }
+      .form__bg .form__login input[type] {
+        padding: 0 0 0 25px;
+        height: 65px;
+        width: 320px;
+        border: 0.5px solid #e5ddd5;
+        margin: 0 auto 5px auto; }
+      .form__bg .form__login input[type=text] {
+        background-image: url(../img/user.png);
+        background-position: 290px 25px;
+        background-repeat: no-repeat; }
+      .form__bg .form__login input[type=password] {
+        background-image: url(../img/locked.png);
+        background-position: 290px 25px;
+        background-repeat: no-repeat; }
+      .form__bg .form__login input[placeholder] {
+        font-size: 20pt;
+        color: black; }
+      .form__bg .form__login #check {
+        cursor: pointer;
+        background-color: white;
+        width: 33px;
+        height: 33px;
+        border: 0.5px solid #e5ddd5;
+        margin-right: 15px; }
+      .form__bg .form__login .checkbox {
+        margin: 0;
+        width: 347px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .form__bg .form__login .checkbox a {
+          color: black;
+          font-size: 14pt;
+          font-family: 'Myriad Pro Regular', sans-serif; }
+      .form__bg .form__login label {
+        cursor: pointer;
+        display: flex;
+        align-items: center; }
+        .form__bg .form__login label span {
+          font-size: 14pt;
+          font-family: 'Myriad Pro Regular', sans-serif; }
+      .form__bg .form__login input[type=button] {
+        margin: 0;
+        width: 347px;
+        padding: 0;
+        background-color: #826550;
+        color: white;
+        font-size: 14pt;
+        font-family: 'Myriad Pro Regular', sans-serif; }
+
+.hiden {
+  display: none; }
