@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0; }
+
 .header {
   background-image: url(../img/back-desktop.jpg);
   height: 646px; }
