@@ -17,14 +17,17 @@ $navColor: #ffffff;
 		width: 300px;
 		background-color: #ffffff;
 		b {
-			line-height: 0.9;
+			line-height: 0.8;
 			font-family: 'PT Sans Narrow', sans-serif;
 			font-size: 35pt;
 		}
 		p {
-			line-height: 0.9;
+			line-height: 1.2;
 			font-family: 'PT Sans Narrow', sans-serif;
 			font-size: 20pt;
+		}
+		small {
+			line-height: 3;
 		}
 	}
 	&__right {
@@ -75,17 +78,41 @@ $navColor: #ffffff;
 		flex-direction:column;
 		align-items: center;
 		justify-content: space-around;
+		.advantage1 {
+			margin-bottom: 20px;
+			object-fit: none;
+		    object-position: 0 0;
+		    width: 95px;
+		    height: 94px;
+		}
+		.advantage2 {
+			margin-bottom: 20px;
+			object-fit: none;
+		    object-position: 0 -94px;
+		    width: 95px;
+		    height: 88px;
+		}
+		.advantage3 {
+			margin-bottom: 20px;
+			object-fit: none;
+		    object-position: 0 -182px;
+		    width: 95px;
+		    height: 88px;
+		}
+		
 		h2 {
 			color: $navColor;
 			font-size: 25pt;
 			font-family: 'Myriad Pro Regular', sans-serif;
 		}
 		p {
+			line-height: 1.5;
 			color: #f7f4f1;
 			font-size: 10pt;
 			font-family: 'Myriad Pro Regular', sans-serif;
 		}
 	}
+
 	&__border {
 		border-left: 1px solid #4a4a4a;
 		border-right: 1px solid #4a4a4a;

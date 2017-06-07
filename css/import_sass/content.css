@@ -14,13 +14,15 @@
     width: 300px;
     background-color: #ffffff; }
     .stats__left b {
-      line-height: 0.9;
+      line-height: 0.8;
       font-family: 'PT Sans Narrow', sans-serif;
       font-size: 35pt; }
     .stats__left p {
-      line-height: 0.9;
+      line-height: 1.2;
       font-family: 'PT Sans Narrow', sans-serif;
       font-size: 20pt; }
+    .stats__left small {
+      line-height: 3; }
   .stats__right .stats-items {
     border-collapse: collapse; }
     .stats__right .stats-items tbody {
@@ -57,11 +59,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around; }
+    .feature__slider .advantage1 {
+      margin-bottom: 20px;
+      object-fit: none;
+      object-position: 0 0;
+      width: 95px;
+      height: 94px; }
+    .feature__slider .advantage2 {
+      margin-bottom: 20px;
+      object-fit: none;
+      object-position: 0 -94px;
+      width: 95px;
+      height: 88px; }
+    .feature__slider .advantage3 {
+      margin-bottom: 20px;
+      object-fit: none;
+      object-position: 0 -182px;
+      width: 95px;
+      height: 88px; }
     .feature__slider h2 {
       color: #ffffff;
       font-size: 25pt;
       font-family: 'Myriad Pro Regular', sans-serif; }
     .feature__slider p {
+      line-height: 1.5;
       color: #f7f4f1;
       font-size: 10pt;
       font-family: 'Myriad Pro Regular', sans-serif; }

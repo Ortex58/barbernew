@@ -1,33 +1,35 @@
-body {
-	margin: 0;
-	padding: 0;
-}
 $navColor: #ffffff;
+.main-nav__container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
 .header {
 	background-image: url(../img/back-desktop.jpg);
 	height: 646px;
 	.main-nav {
 		display: flex;
 		justify-content: space-around;
+		align-items: center;
 		background-color: black;
-		height: 70px;
-		
-		
+		//height: 70px;
 		&__items {
 			display: flex;
 			-webkit-justify-content: space-between; /* Safari */
  			justify-content: space-between;
 			list-style-type: none;
 			margin: 0;
+			flex-wrap: wrap;
 		}
 		&__item {
 			cursor: pointer;
 			position: relative;
-			color: $navColor;
-			margin-right: 50px;
-			top: 20px;
+			color: #ffffff;
 			font-size: 18pt;
 			height: 45px;
+			margin: 15px 50px 1px auto;
+			white-space: nowrap;
+			text-overflow: ellipsis;
 			&:hover {
 				border-bottom: solid 3px #826550;
 			}
@@ -40,6 +42,7 @@ $navColor: #ffffff;
 			justify-content: space-around;
 			color: $navColor;
 			width: 80px;
+			margin-right: 10px;
 			
 		}
 	}

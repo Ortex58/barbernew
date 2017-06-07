@@ -1,7 +1,14 @@
-.form__bg {
-  height: 100vh;
-  z-index: 10; }
-  .form__bg .form {
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .modal .form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -14,74 +21,89 @@
     position: fixed;
     right: 50%;
     margin-right: -230px; }
-    .form__bg .form__login {
+    .modal .form__login {
       height: 350px;
       position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between; }
-      .form__bg .form__login--room {
+      .modal .form__login--room {
         position: relative;
         text-align: center;
         font-size: 30pt;
         font-family: 'Myriad Pro Regular', sans-serif;
         margin: 0; }
-      .form__bg .form__login--paragraph {
+      .modal .form__login--paragraph {
         text-align: center;
         font-size: 12pt;
         font-family: 'Myriad Pro Regular', sans-serif;
         color: #424141;
         margin: 0; }
-      .form__bg .form__login input[type] {
+      .modal .form__login input[type] {
         padding: 0 0 0 25px;
         height: 65px;
         width: 320px;
         border: 0.5px solid #e5ddd5;
         margin: 0 auto 5px auto; }
-      .form__bg .form__login input[type=text] {
+      .modal .form__login input[type=text] {
         background-image: url(../img/user.png);
         background-position: 290px 25px;
         background-repeat: no-repeat; }
-      .form__bg .form__login input[type=password] {
+      .modal .form__login input[type=password] {
         background-image: url(../img/locked.png);
         background-position: 290px 25px;
         background-repeat: no-repeat; }
-      .form__bg .form__login input[placeholder] {
+      .modal .form__login input[placeholder] {
         font-size: 20pt;
         color: black; }
-      .form__bg .form__login #check {
+      .modal .form__login #check {
         cursor: pointer;
         background-color: white;
         width: 33px;
         height: 33px;
         border: 0.5px solid #e5ddd5;
         margin-right: 15px; }
-      .form__bg .form__login .checkbox {
+      .modal .form__login .checkbox {
         margin: 0;
         width: 347px;
         display: flex;
         align-items: center;
         justify-content: space-between; }
-        .form__bg .form__login .checkbox a {
+        .modal .form__login .checkbox a {
           color: black;
           font-size: 14pt;
           font-family: 'Myriad Pro Regular', sans-serif; }
-      .form__bg .form__login label {
+      .modal .form__login label {
         cursor: pointer;
         display: flex;
         align-items: center; }
-        .form__bg .form__login label span {
+        .modal .form__login label span {
           font-size: 14pt;
           font-family: 'Myriad Pro Regular', sans-serif; }
-      .form__bg .form__login input[type=button] {
+      .modal .form__login input[type=button] {
         margin: 0;
         width: 347px;
         padding: 0;
         background-color: #826550;
         color: white;
         font-size: 14pt;
-        font-family: 'Myriad Pro Regular', sans-serif; }
+        font-family: 'Myriad Pro Regular', sans-serif;
+        outline: none; }
 
-.hiden {
-  display: none; }
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /*padding: 10px;*/
+  /*border: 1px solid #888;*/
+  width: 80%; }
+
+.close {
+  position: relative;
+  top: -50px;
+  left: 480px;
+  cursor: pointer;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
