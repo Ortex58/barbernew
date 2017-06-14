@@ -1,23 +1,23 @@
 $navColor: #ffffff;
-a {
-	text-decoration: none;
-	color: $navColor;
-}
-.main-nav__container {
-	max-width: 1200px;
+.main-nav__container-form {
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
+	justify-content: space-around;
+	max-width: 1300px;
 }
-.header {
+.header-form {
 	background-image: url(../img/back-desktop.jpg);
-	height: 646px;
+	height: 340px;
 	.main-nav {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		background-color: black;
+		padding: 0 100px 0 100px;
 		//height: 70px;
 		&__items {
+			width: 100%;
 			display: flex;
 			-webkit-justify-content: space-between; /* Safari */
  			justify-content: space-between;
@@ -31,7 +31,7 @@ a {
 			color: #ffffff;
 			font-size: 18pt;
 			height: 45px;
-			margin: 15px 50px 1px auto;
+			margin: 15px 0 1px 0;
 			white-space: nowrap;
 			text-overflow: ellipsis;
 			border-bottom: 3px solid rgba(0, 0, 255, 0.0);
@@ -47,15 +47,27 @@ a {
 			justify-content: space-around;
 			color: $navColor;
 			width: 80px;
-			margin-right: 10px;
+			margin-left: 100px;
 			
 		}
 	}
   .header__logo {
   	position: relative;
-  	top: 5%;
+  	//top: 0%;
   	width: 370px;
   	margin: 50px auto 0;
   }
 	
+}
+.tiango {
+    	position: relative;
+    	bottom: 65px;
+    }
+.tiango-1 {
+        width: 50%;
+        float: left;
+    }
+.tiango-2 {
+    width: 50%;
+     float: right;
 }

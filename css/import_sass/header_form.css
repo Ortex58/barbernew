@@ -1,21 +1,21 @@
-a {
-  text-decoration: none;
-  color: #ffffff; }
-
-.main-nav__container {
-  max-width: 1200px;
+.main-nav__container-form {
+  width: 100%;
   margin: 0 auto;
-  display: flex; }
+  display: flex;
+  justify-content: space-around;
+  max-width: 1300px; }
 
-.header {
+.header-form {
   background-image: url(../img/back-desktop.jpg);
-  height: 646px; }
-  .header .main-nav {
+  height: 340px; }
+  .header-form .main-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black; }
-    .header .main-nav__items {
+    background-color: black;
+    padding: 0 100px 0 100px; }
+    .header-form .main-nav__items {
+      width: 100%;
       display: flex;
       -webkit-justify-content: space-between;
       /* Safari */
@@ -23,28 +23,39 @@ a {
       list-style-type: none;
       margin: 0;
       flex-wrap: wrap; }
-    .header .main-nav__item {
+    .header-form .main-nav__item {
       cursor: pointer;
       position: relative;
       color: #ffffff;
       font-size: 18pt;
       height: 45px;
-      margin: 15px 50px 1px auto;
+      margin: 15px 0 1px 0;
       white-space: nowrap;
       text-overflow: ellipsis;
       border-bottom: 3px solid rgba(0, 0, 255, 0); }
-      .header .main-nav__item:hover {
+      .header-form .main-nav__item:hover {
         border-bottom: solid 3px #826550; }
-    .header .main-nav .login {
+    .header-form .main-nav .login {
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: space-around;
       color: #ffffff;
       width: 80px;
-      margin-right: 10px; }
-  .header .header__logo {
+      margin-left: 100px; }
+  .header-form .header__logo {
     position: relative;
-    top: 5%;
     width: 370px;
     margin: 50px auto 0; }
+
+.tiango {
+  position: relative;
+  bottom: 65px; }
+
+.tiango-1 {
+  width: 50%;
+  float: left; }
+
+.tiango-2 {
+  width: 50%;
+  float: right; }
