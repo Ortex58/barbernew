@@ -3,9 +3,11 @@ a {
   color: #ffffff; }
 
 .main-nav__container {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  display: flex; }
+  display: flex;
+  justify-content: space-around;
+  max-width: 1300px; }
 
 .header {
   background-image: url(../img/back-desktop.jpg);
@@ -14,8 +16,10 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black; }
+    background-color: black;
+    padding: 0 100px 0 100px; }
     .header .main-nav__items {
+      width: 100%;
       display: flex;
       -webkit-justify-content: space-between;
       /* Safari */
@@ -29,7 +33,7 @@ a {
       color: #ffffff;
       font-size: 18pt;
       height: 45px;
-      margin: 15px 50px 1px auto;
+      margin: 15px 0 1px 0;
       white-space: nowrap;
       text-overflow: ellipsis;
       border-bottom: 3px solid rgba(0, 0, 255, 0); }
@@ -42,7 +46,7 @@ a {
       justify-content: space-around;
       color: #ffffff;
       width: 80px;
-      margin-right: 10px; }
+      margin-left: 100px; }
   .header .header__logo {
     position: relative;
     top: 5%;

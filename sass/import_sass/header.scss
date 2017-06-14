@@ -4,9 +4,11 @@ a {
 	color: $navColor;
 }
 .main-nav__container {
-	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
+	justify-content: space-around;
+	max-width: 1300px;
 }
 .header {
 	background-image: url(../img/back-desktop.jpg);
@@ -16,8 +18,9 @@ a {
 		justify-content: space-around;
 		align-items: center;
 		background-color: black;
-		//height: 70px;
+		padding: 0 100px 0 100px;
 		&__items {
+			width: 100%;
 			display: flex;
 			-webkit-justify-content: space-between; /* Safari */
  			justify-content: space-between;
@@ -31,7 +34,7 @@ a {
 			color: #ffffff;
 			font-size: 18pt;
 			height: 45px;
-			margin: 15px 50px 1px auto;
+			margin: 15px 0 1px 0;
 			white-space: nowrap;
 			text-overflow: ellipsis;
 			border-bottom: 3px solid rgba(0, 0, 255, 0.0);
@@ -47,7 +50,7 @@ a {
 			justify-content: space-around;
 			color: $navColor;
 			width: 80px;
-			margin-right: 10px;
+			margin-left: 100px;
 			
 		}
 	}
