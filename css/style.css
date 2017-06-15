@@ -639,3 +639,6 @@ a {
 .tiango-2 {
   width: 50%;
   float: right; }
+
+.photo-content {
+  background-color: grey; }
