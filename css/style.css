@@ -651,6 +651,8 @@ a {
       .photo-content__1line__left img {
         width: 100%; }
     .photo-content__1line__right {
+      position: relative;
+      width: 50%;
       padding-top: 25px;
       padding-left: 40px;
       font-family: 'PT Sans Narrow', sans-serif; }
@@ -673,3 +675,12 @@ a {
         color: black;
         font-weight: bolder;
         margin-bottom: 30px; }
+      .photo-content__1line__right p {
+        font-size: 18pt;
+        color: black;
+        width: 60%;
+        margin-bottom: 30px; }
+      .photo-content__1line__right .stikers__elements {
+        display: flex;
+        position: absolute;
+        bottom: 0; }
