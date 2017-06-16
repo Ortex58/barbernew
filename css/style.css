@@ -641,4 +641,35 @@ a {
   float: right; }
 
 .photo-content {
-  background-color: grey; }
+  background-color: grey;
+  max-width: 1300px;
+  margin: 0 auto; }
+  .photo-content__1line {
+    display: flex; }
+    .photo-content__1line__left {
+      width: 50%; }
+      .photo-content__1line__left img {
+        width: 100%; }
+    .photo-content__1line__right {
+      padding-top: 25px;
+      padding-left: 40px;
+      font-family: 'PT Sans Narrow', sans-serif; }
+      .photo-content__1line__right .stiker {
+        height: 50px;
+        position: relative;
+        margin-bottom: 50px; }
+        .photo-content__1line__right .stiker span {
+          position: absolute;
+          width: 136px;
+          height: 50px;
+          background-color: #826550;
+          right: 0;
+          color: #fff;
+          font-size: 11pt;
+          line-height: 50px;
+          text-align: center; }
+      .photo-content__1line__right h3 {
+        font-size: 27pt;
+        color: black;
+        font-weight: bolder;
+        margin-bottom: 30px; }
