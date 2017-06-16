@@ -17,6 +17,8 @@
 		padding-top: 25px;
 		padding-left: 40px;
 		font-family: 'PT Sans Narrow', sans-serif;
+		border: #e5ddd5 solid 1px;
+		
 	  .stiker {
 	  	height: 50px;
 	  	position: relative;
@@ -49,8 +51,95 @@
 	  .stikers__elements {
 	      display: flex;
 	      position: absolute;
-	      bottom: 0;
+	      bottom: 30px;
+	      flex-wrap: wrap;
+	      justify-content: space-between;
+	      align-items: center;
+	      width: 100%;
+		  max-width: 400px;
+		  font-size: 16pt;
+		  font-weight: bold;
+	      &--haircut {
+	      	display: flex;
+	      	align-items: center;
+	      	img {
+	      		margin-right: 10px;
+	      	}
+	      }
+	      &--briton {
+	      	display: flex;
+	      	align-items: center;
+	      	img {
+	      		margin-right: 10px;
+	      	}
+	      }
+	      &--mustache {
+	      	display: flex;
+	      	align-items: center;
+	      	img {
+	      		margin-right: 10px;
+	      	}
+	      }
 	  }
   	}
+  }
+  &__2line {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	&__options {
+		margin-top: 30px;
+		width: 30%;
+		
+		&--mainImage {
+			width: 100%;
+			img {
+			width: 100%;
+			}
+		}
+		&__content {
+			position: relative;
+			height: 300px;
+			h3 {
+				font-size: 18pt;
+				padding-left: 40px;
+				line-height: 60pt;
+				font-weight: bold;
+			}
+			p {
+				font-size: 18pt;
+				padding-left: 40px;
+				line-height: 21pt;
+				font-weight: normal;
+			}
+			.stikers__elements {
+				display: flex;
+				align-items: center;
+				position: absolute;
+				bottom: 30px;
+				justify-content: space-between;
+				max-width: 350px;
+				width: 100%;
+				&--haircut {
+					display: flex;
+					align-items: center;
+					padding-left: 40px;
+					img {
+						margin-right: 10px;
+					}
+				}
+				&--briton {
+					display: flex;
+					align-items: center;
+					padding-left: 40px;
+					img {
+						margin-right: 10px;
+					}
+					
+				}
+			}
+		}
+	}
   }
 }

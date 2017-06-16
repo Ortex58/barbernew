@@ -13,7 +13,8 @@
       width: 50%;
       padding-top: 25px;
       padding-left: 40px;
-      font-family: 'PT Sans Narrow', sans-serif; }
+      font-family: 'PT Sans Narrow', sans-serif;
+      border: #e5ddd5 solid 1px; }
       .photo-content__1line__right .stiker {
         height: 50px;
         position: relative;
@@ -41,4 +42,71 @@
       .photo-content__1line__right .stikers__elements {
         display: flex;
         position: absolute;
-        bottom: 0; }
+        bottom: 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 400px;
+        font-size: 16pt;
+        font-weight: bold; }
+        .photo-content__1line__right .stikers__elements--haircut {
+          display: flex;
+          align-items: center; }
+          .photo-content__1line__right .stikers__elements--haircut img {
+            margin-right: 10px; }
+        .photo-content__1line__right .stikers__elements--briton {
+          display: flex;
+          align-items: center; }
+          .photo-content__1line__right .stikers__elements--briton img {
+            margin-right: 10px; }
+        .photo-content__1line__right .stikers__elements--mustache {
+          display: flex;
+          align-items: center; }
+          .photo-content__1line__right .stikers__elements--mustache img {
+            margin-right: 10px; }
+  .photo-content__2line {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%; }
+    .photo-content__2line__options {
+      margin-top: 30px;
+      width: 30%; }
+      .photo-content__2line__options--mainImage {
+        width: 100%; }
+        .photo-content__2line__options--mainImage img {
+          width: 100%; }
+      .photo-content__2line__options__content {
+        position: relative;
+        height: 300px; }
+        .photo-content__2line__options__content h3 {
+          font-size: 18pt;
+          padding-left: 40px;
+          line-height: 60pt;
+          font-weight: bold; }
+        .photo-content__2line__options__content p {
+          font-size: 18pt;
+          padding-left: 40px;
+          line-height: 21pt;
+          font-weight: normal; }
+        .photo-content__2line__options__content .stikers__elements {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          bottom: 30px;
+          justify-content: space-between;
+          max-width: 350px;
+          width: 100%; }
+          .photo-content__2line__options__content .stikers__elements--haircut {
+            display: flex;
+            align-items: center;
+            padding-left: 40px; }
+            .photo-content__2line__options__content .stikers__elements--haircut img {
+              margin-right: 10px; }
+          .photo-content__2line__options__content .stikers__elements--briton {
+            display: flex;
+            align-items: center;
+            padding-left: 40px; }
+            .photo-content__2line__options__content .stikers__elements--briton img {
+              margin-right: 10px; }
