@@ -1,9 +1,13 @@
+.footer-main {
+    background-color: #292929;
+}
 .footer {
     line-height: 1.5;
     height: 200px;
-    background-color: #353535;
+    max-width: 1300px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Myriad Pro Regular', sans-serif;
     &__contacts {

@@ -2,7 +2,6 @@
   background-color: #f7f5f1; }
   .form-content__head {
     padding: 0 100px 0 100px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +24,6 @@
       font-size: 17pt;
       font-family: 'PT Sans Narrow', sans-serif; }
   .form-content__form {
-    width: 100%;
     padding: 0 100px 0 100px;
     display: flex;
     flex-direction: column;

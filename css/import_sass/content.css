@@ -59,6 +59,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around; }
+    .feature__slider img {
+      margin-bottom: 30px; }
     .feature__slider .advantage1 {
       margin-bottom: 20px;
       object-fit: none;

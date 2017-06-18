@@ -147,6 +147,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-around; }
+    .feature__slider img {
+      margin-bottom: 30px; }
     .feature__slider .advantage1 {
       margin-bottom: 20px;
       object-fit: none;
@@ -231,12 +233,16 @@ a {
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif; }
 
+.footer-main {
+  background-color: #292929; }
+
 .footer {
   line-height: 1.5;
   height: 200px;
-  background-color: #353535;
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-family: 'Myriad Pro Regular', sans-serif; }
   .footer__contacts h2 {
@@ -391,7 +397,6 @@ a {
   background-color: #f7f5f1; }
   .form-content__head {
     padding: 0 100px 0 100px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -414,7 +419,6 @@ a {
       font-size: 17pt;
       font-family: 'PT Sans Narrow', sans-serif; }
   .form-content__form {
-    width: 100%;
     padding: 0 100px 0 100px;
     display: flex;
     flex-direction: column;
@@ -641,7 +645,6 @@ a {
   float: right; }
 
 .photo-content {
-  background-color: grey;
   max-width: 1300px;
   margin: 0 auto; }
   .photo-content__1line {
@@ -711,10 +714,12 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 100px; }
     .photo-content__2line__options {
       margin-top: 30px;
-      width: 30%; }
+      width: 30%;
+      border: #e5ddd5 solid 1px; }
       .photo-content__2line__options--mainImage {
         width: 100%; }
         .photo-content__2line__options--mainImage img {
@@ -738,7 +743,7 @@ a {
           position: absolute;
           bottom: 30px;
           justify-content: space-between;
-          max-width: 350px;
+          max-width: 300px;
           width: 100%; }
           .photo-content__2line__options__content .stikers__elements--haircut {
             display: flex;
@@ -752,3 +757,57 @@ a {
             padding-left: 40px; }
             .photo-content__2line__options__content .stikers__elements--briton img {
               margin-right: 10px; }
+  .photo-content__price {
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #353535; }
+    .photo-content__price__table {
+      width: 60%; }
+      .photo-content__price__table--title {
+        color: #fff;
+        font-size: 40pt;
+        font-family: 'PT Sans Narrow', sans-serif;
+        margin-top: 75px;
+        font-weight: bold; }
+      .photo-content__price__table table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 50px;
+        height: 270px; }
+        .photo-content__price__table table tr {
+          text-align: center; }
+          .photo-content__price__table table tr td {
+            border: 1px solid #4a4a4a;
+            line-height: 50px;
+            min-width: 50px;
+            color: #fff;
+            font-size: 20pt; }
+          .photo-content__price__table table tr td:nth-child(1) {
+            color: #4a4a4a; }
+          .photo-content__price__table table tr td:nth-child(4) {
+            color: #d7d7d7; }
+    .photo-content__price__clock {
+      width: 38%;
+      height: 270px;
+      margin: 0 auto;
+      border: 1px solid #4a4a4a;
+      margin-top: 177px; }
+      .photo-content__price__clock .clock-img {
+        margin: 0 auto;
+        width: 170px;
+        margin-top: 25px; }
+        .photo-content__price__clock .clock-img img {
+          margin-left: 13px; }
+        .photo-content__price__clock .clock-img p {
+          color: #c9c9c9;
+          text-align: center;
+          margin-top: 30px;
+          font-size: 20pt;
+          font-family: 'PT Sans Narrow', sans-serif; }
+
+.price {
+  background-color: #353535;
+  padding-bottom: 100px; }
